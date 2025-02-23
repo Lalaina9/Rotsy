@@ -1,28 +1,42 @@
-lalaina@MacBook-Air-de-Toloranjanahary ~ % >....                                                                                                                                                                                                  
+Last login: Sun Feb 23 17:44:57 on ttys000
+lalaina@MacBook-Air-de-Toloranjanahary ~ % # Créer le dossier principal
+mkdir mon_site
 
-    <!-- Tableau -->
-    <table border="1">
-        <tr>
-            <th>Année</th>
-            <th>Événement</th>
-        </tr>
-        <tr>
-            <td>1827</td>
-            <td>Première ligne de chemin de fer en France</td>
-        </tr>
-        <tr><!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les chemins de fer</title>
-</head>
-<body>
-    <!-- Titre de la page -->
+# Créer les sous-dossiers
+mkdir mon_site/images
+mkdir mon_site/HTML
+
+# Créer les fichiers HTML vides
+touch mon_site/HTML/index.html
+touch mon_site/HTML/histoire_voitures.html
+touch mon_site/HTML/trains.html
+zsh: command not found: #
+mkdir: mon_site: File exists
+zsh: command not found: #
+mkdir: mon_site/images: File exists
+mkdir: mon_site/HTML: File exists
+zsh: command not found: #
+lalaina@MacBook-Air-de-Toloranjanahary ~ % # Copier les images depuis leurs emplacements actuels vers le dossier images
+cp /Users/lalaina/Downloads/voiture_apparat.jpg mon_site/images/
+cp /Users/lalaina/Downloads/voiture_comte.jpg mon_site/images/
+cp /Users/lalaina/Downloads/tableau.png mon_site/images/
+zsh: command not found: #
+lalaina@MacBook-Air-de-Toloranjanahary ~ %  # Télécharger l'animation GIF dans le dossier images
+cd mon_site/images
+wget https://archive.org/download/lesmerveillesdel00deha/lesmerveillesdel00deha.gif -O animation.gif
+cd ../..  # Revenir au dossier parent
+quote> # Télécharger l'animation GIF dans le dossier images
+cd mon_site/images
+wget https://archive.org/download/lesmerveillesdel00deha/lesmerveillesdel00deha.gif -O animation.gif
+cd ../..  # Revenir au dossier parent
+zsh: command not found: #
+zsh: command not found: wget
+cd: too many arguments
+lalaina@MacBook-Air-de-Toloranjanahary images % >....                           
     <h1>Les chemins de fer</h1>
 
-    <!-- Contenu de la page -->
-    <p>Voici un tableau représentant l'évolution des chemins de fer.</p>
+    <!-- Texte -->
+    <p>Voici un tableau représentant l'évolution des chemins de fer :</p>
 
     <!-- Tableau -->
     <table border="1">
@@ -31,155 +45,24 @@ lalaina@MacBook-Air-de-Toloranjanahary ~ % >....
             <th>Événement</th>
         </tr>
         <tr>
-            <td>1827</td>
-            <td>Première ligne de chemin de fer en France</td>
-        </tr>
-        <tr><!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les chemins de fer</title>
-</head>
-<body>
-    <!-- Titre de la page -->
-    <h1>Les chemins de fer</h1>
-
-    <!-- Contenu de la page -->
-    <p>Voici un tableau représentant l'évolution des chemins de fer.</p>
-
-    <!-- Tableau -->
-    <table border="1">
-lalaina@MacBook-Air-de-Toloranjanahary ~ % >....                                                                                                                                                                                                  
-    <table border="1">
-        <tr>
-            <th>Année</th>
-            <th>Événement</th>
+            <td>1825</td>
+            <td>Premier train à vapeur</td>
         </tr>
         <tr>
-            <td>1827</td>
-            <td>Première ligne de chemin de fer en France</td>
-        </tr>
-        <tr><!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les chemins de fer</title>
-</head>
-<body>
-    <!-- Titre de la page -->
-    <h1>Les chemins de fer</h1>
-
-    <!-- Contenu de la page -->
-    <p>Voici un tableau représentant l'évolution des chemins de fer.</p>
-
-    <!-- Tableau -->
-    <table border="1">
-        <tr>
-            <th>Année</th>
-            <th>Événement</th>
-        </tr>
-        <tr>
-            <td>1827</td>
-            <td>Première ligne de chemin de fer en France</td>
-        </tr>
-        <tr><!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les chemins de fer</title>
-</head>
-<body>
-    <!-- Titre de la page -->
-    <h1>Les chemins de fer</h1>
-
-    <!-- Contenu de la page -->
-    <p>Voici un tableau représentant l'évolution des chemins de fer.</p>
-
-    <!-- Tableau -->
-    <table border="1">
-lalaina@MacBook-Air-de-Toloranjanahary ~ % >....                                
-            <th>Année</th>
-            <th>Événement</th>
-        </tr>
-        <tr>
-            <td>1827</td>
-            <td>Première ligne de chemin de fer en France</td>
-        </tr>
-        <tr><td>1840</td>
+            <td>1850</td>
             <td>Expansion des réseaux ferroviaires</td>
         </tr>
-        <tr>
-            <td>1900</td>
-            <td>Introduction des trains électriques</td>
-        </tr>
     </table>
-
-    <!-- Footer -->
-    <footer>
-        <p>Contact : <a href="mailto:contact@histoire-transports.com">contact@histoire-transports.com</a></p>
-    </footer>
 </body>
-</html>cd ~/Documents
+</html> # Compresser le dossier mon_site en un fichier ZIP
+zip -r Prenom_Nom.zip mon_site
 zsh: event not found: DOCTYPE
-lalaina@MacBook-Air-de-Toloranjanahary ~ % mkdir mon_site
-lalaina@MacBook-Air-de-Toloranjanahary ~ % cd mon_site
-lalaina@MacBook-Air-de-Toloranjanahary mon_site % mkdir images HTML
-lalaina@MacBook-Air-de-Toloranjanahary mon_site % ls
-HTML	images
-lalaina@MacBook-Air-de-Toloranjanahary mon_site % cd HTML
-lalaina@MacBook-Air-de-Toloranjanahary HTML % touch index.html histoire_voitures.html trains.html nano index.html histoire_voitures.html trains.html
-lalaina@MacBook-Air-de-Toloranjanahary HTML % nano index.html
-lalaina@MacBook-Air-de-Toloranjanahary HTML %  nano histoire_voitures.html 
-lalaina@MacBook-Air-de-Toloranjanahary HTML % nano trains.html
-lalaina@MacBook-Air-de-Toloranjanahary HTML % cd images
-cd: no such file or directory: images
-lalaina@MacBook-Air-de-Toloranjanahary HTML % cp /Users/lalaina/Downloads/voiture_apparat.jpg  cp /Users/lalaina/Downloads/voiture_comte.jpg 
-cp: /Users/lalaina/Downloads/voiture_comte.jpg is not a directory
-lalaina@MacBook-Air-de-Toloranjanahary HTML % cp/récent//Users/lalaina/Downloads/voiture_apparat.jpg  cp/récents//Users/lalaina/Downloads/voiture_comte.jpg 
-zsh: no such file or directory: cp/récent//Users/lalaina/Downloads/voiture_apparat.jpg
-lalaina@MacBook-Air-de-Toloranjanahary HTML % ls
-histoire_voitures.html	nano
-index.html		trains.html
-lalaina@MacBook-Air-de-Toloranjanahary HTML % cp ~/Téléchargements/voiture_apparat.jpg .
-cp: /Users/lalaina/Téléchargements/voiture_apparat.jpg: No such file or directory
-lalaina@MacBook-Air-de-Toloranjanahary HTML % cp/finder/voiture_apparat.jpg.
-zsh: no such file or directory: cp/finder/voiture_apparat.jpg.
-lalaina@MacBook-Air-de-Toloranjanahary HTML % cp/document/voiture_apparat.jpg .
-zsh: no such file or directory: cp/document/voiture_apparat.jpg
-lalaina@MacBook-Air-de-Toloranjanahary HTML % cp /Users/lalaina/Downloads/voiture_apparat.jpg
-usage: cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file target_file
-       cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file ... target_directory
-lalaina@MacBook-Air-de-Toloranjanahary HTML % cp /Users/lalaina/Downloads/voiture_comte.jpg
-usage: cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file target_file
-       cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file ... target_directory
-lalaina@MacBook-Air-de-Toloranjanahary HTML % ls
-histoire_voitures.html	nano
-index.html		trains.html
-lalaina@MacBook-Air-de-Toloranjanahary HTML % cd
-lalaina@MacBook-Air-de-Toloranjanahary ~ % tree
-zsh: command not found: tree
-lalaina@MacBook-Air-de-Toloranjanahary ~ % brew install tree
-zsh: command not found: brew
-lalaina@MacBook-Air-de-Toloranjanahary ~ % zip -r lalaina_toloranjanahary mon_site
-  adding: mon_site/ (stored 0%)
-  adding: mon_site/images/ (stored 0%)
-  adding: mon_site/HTML/ (stored 0%)
-  adding: mon_site/HTML/index.html (deflated 48%)
-  adding: mon_site/HTML/nano (stored 0%)
-  adding: mon_site/HTML/histoire_voitures.html (stored 0%)
-  adding: mon_site/HTML/trains.html (stored 0%)
-lalaina@MacBook-Air-de-Toloranjanahary ~ % ls
-Desktop				histoire_voitures.html
-Documents			index.html
-Downloads			lalaina.save
-Library				lalaina_toloranjanahary.zip
-Movies				lister-commentaire.sh.save
-Music				lister.sh.save
-Pictures			mon_site
-Public				trains.html
-coucou-qui			zoom.dxt
-coucou-variable.sh		zoom.txt
-lalaina@MacBook-Air-de-Toloranjanahary ~ % 
+lalaina@MacBook-Air-de-Toloranjanahary images % # Compresser le dossier mon_site en un fichier ZIP
+zip -r rotsy_toloranjanahary mon_site
+zsh: command not found: #
+	zip warning: name not matched: mon_site
+
+zip error: Nothing to do! (try: zip -r rotsy_toloranjanahary . -i mon_site)
+lalaina@MacBook-Air-de-Toloranjanahary images % zip -r rotsy_toloranjanahary . -i mon_site
+	zip warning: zip file empty
+lalaina@MacBook-Air-de-Toloranjanahary images % 
